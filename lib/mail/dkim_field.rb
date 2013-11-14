@@ -20,6 +20,10 @@ module Mail
     def decoded
       "#{name}:#{value}\r\n"
     end
+
+    def field_order_id
+      100
+    end
   end
 end
 
